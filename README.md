@@ -37,4 +37,22 @@ Which candidate won the election, what was their vote count, and what was their 
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/winner.png)
 
-### 3. Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+### 3. Election-Audit Summary: 
+
+
+After creating the python script for the election, I realize that this script is not a one time script and can be modified to meet the criterias that others may want. At the moment, the current script allows users to see the the total amount of votes, who the winner was, what was the largest county and other useful information that can help determine other analysis. 
+
+Two modifications that can be done with this current script is to:
+	1. analyze data on a larger scale: we can alter the county list to a state list or a list of countries at a specific region. The larger the data, the more complicated it will be, but with the script, it will help users to quickly analyze the data.
+
+	2. cadidates' demographics: adding demoegraphics to this script can help our analysis by figuring out which state/country is more appealing to a candidate based on their age, sex, and ethnic background. The more background we know of a person, the more we are likely to trust that person. 
+
+
+
+
+
+
+
+
+
+
