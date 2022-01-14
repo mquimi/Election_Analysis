@@ -39,15 +39,15 @@ Denver was the county with the largest number of votes.
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/winner.png)
 
 From the image above, you can conclude that the winner of the election is Diana DeGette with a total of 272,892 vote counts and a winning pecentage of 73.8%
+
 ### 3. Election-Audit Summary: 
 
+After creating the python script for the election, I realize that this script is not a one time script and can be modified to meet the criterias that others may want. At the moment, the current script iterates through each row, while reading through the second and third column, allowing users to see the printed results of the total amount of votes, who the winner was, what was the largest county and other useful information that can help determine other analysis. 
 
-After creating the python script for the election, I realize that this script is not a one time script and can be modified to meet the criterias that others may want. At the moment, the current script iterates through each row, while reading through the second and third column, allowwing users to see the printed results of the total amount of votes, who the winner was, what was the largest county and other useful information that can help determine other analysis. 
+Two modifications that can be done with this current script are to:
 
-Two modifications that can be done with this current script is to:
-
-1. analyze data on a larger scale: we can alter the county list to a state list or a list of countries at a specific region. The larger the data, the more complicated it will be, but with the script, it will help users to quickly analyze the data.
+1. Analyze data on a larger scale: using a county list allowed us to analyze a small scope of counties. With the current script, we can easily modify the dataset with a list of countires or states. Looking at results from a bigger region can help us track other types of election such as primary or electorial.
 
 
-2. cadidates' demographics: adding demoegraphics to this script can help our analysis by figuring out which state/country is more appealing to a candidate based on their age, sex, and ethnic background. The more background we know of a person, the more we are likely to trust that person. 
+2. Cadidates's demographics: Knowing the demographics of a person can help provide an understanding of who that person is and make strategic decisions based on what they know. Adding the candidates's deographics will be essential for voters to know who they are electing and what the candidates plan and purpose is. Sad,but true, knowing the candidate age, sex, and ethnic background holds a lot of weight for voters and their decisions. 
 
