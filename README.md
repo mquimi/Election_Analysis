@@ -20,39 +20,68 @@ For this project, I was in charge of an election audit for the Colorado Board of
 
 Code:
 ```Python
-        if candidate_name not in candidate_options:
+        # Read the csv and convert it into a list of dictionaries
+with open(file_to_load) as election_data:
+    reader = csv.reader(election_data)
 
-            candidate_options.append(candidate_name)
-            candidate_votes[candidate_name] = 0
-            candidate_votes[candidate_name] += 1
+    # Read the header
+    header = next(reader)
 
-        if county_name not in county_options:
-            
-            county_options.append(county_name)
-            county_votes[county_name] = 0
+    # For each row in the CSV file.
+    for row in reader:
 
-        county_votes[county_name] += 1
-print(county_votes)
+        # Add to the total vote count
+        total_votes = total_votes + 1
 ```
 Results:    
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/Congressional%20election.png)
 
 2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+Code:
+```Python
+    for county_name in county_votes:
+        # 6b: Retrieve the county vote count.
+        county_vote_count = county_votes[county_name]
+        # 6c: Calculate the percentage of votes for the county.
+        county_vote_percentage = float(county_vote_count)/float(total_votes)*100
+        county_result = (
+            f"{county_name}: {county_vote_percentage:.1f}% ({county_vote_count:,})\n")
 
+         # 6d: Print the county results to the terminal.
+        print(county_result)
+```
+Results:
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/County%20Votes.png)
 
 3. Which county had the largest number of votes?
 
+Results:
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/largest%20county.png)
 
 Denver was the county with the largest number of votes.
 
 4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-
+Results:
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/percentage.png)
 
 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+Code:
+```Python
+if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_candidate = candidate_name
+            winning_percentage = vote_percentage
 
+    # Print the winning candidate (to terminal)
+    winning_candidate_summary = (
+        f"-------------------------\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"-------------------------\n")
+    print(winning_candidate_summary)
+```
+Results:
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/winner.png)
 
 From the image above, you can conclude that the winner of the election is Diana DeGette with a total of 272,892 vote counts and a winning pecentage of 73.8%
