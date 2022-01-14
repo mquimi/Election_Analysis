@@ -29,6 +29,8 @@ Which county had the largest number of votes?
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/largest%20county.png)
 
+Denver was the county with the largest number of votes.
+
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/percentage.png)
@@ -36,7 +38,7 @@ Provide a breakdown of the number of votes and the percentage of the total votes
 Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/winner.png)
-
+From the image above, you can conclude that the winner of the election is Diana DeGette with a total of 272,892 vote counts and a winning pecentage of 73.8%
 ### 3. Election-Audit Summary: 
 
 
@@ -48,12 +50,3 @@ Two modifications that can be done with this current script is to:
 
 
 2. cadidates' demographics: adding demoegraphics to this script can help our analysis by figuring out which state/country is more appealing to a candidate based on their age, sex, and ethnic background. The more background we know of a person, the more we are likely to trust that person. 
-
-
-
-
-
-
-
-
-
