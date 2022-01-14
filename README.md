@@ -18,6 +18,23 @@ For this project, I was in charge of an election audit for the Colorado Board of
 
 1. How many votes were cast in this congressional election?
 
+Code:
+```Python
+        if candidate_name not in candidate_options:
+
+            candidate_options.append(candidate_name)
+            candidate_votes[candidate_name] = 0
+            candidate_votes[candidate_name] += 1
+
+        if county_name not in county_options:
+            
+            county_options.append(county_name)
+            county_votes[county_name] = 0
+
+        county_votes[county_name] += 1
+print(county_votes)
+```
+Results:    
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/Congressional%20election.png)
 
 2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
