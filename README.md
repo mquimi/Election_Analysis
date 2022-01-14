@@ -16,26 +16,26 @@ For this project, I was in charge of an election audit for the Colorado Board of
 
 ### 2. Election-Audit Results: 
 
-How many votes were cast in this congressional election?
+- How many votes were cast in this congressional election?
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/Congressional%20election.png)
 
 
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/County%20Votes.png)
 
-Which county had the largest number of votes?
+- Which county had the largest number of votes?
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/largest%20county.png)
 
-Denver was the county with the largest number of votes.
+- Denver was the county with the largest number of votes.
 
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/percentage.png)
 
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ![alt text](https://github.com/mquimi/Election_Analysis/blob/main/Images/winner.png)
 From the image above, you can conclude that the winner of the election is Diana DeGette with a total of 272,892 vote counts and a winning pecentage of 73.8%
