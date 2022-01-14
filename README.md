@@ -1,21 +1,25 @@
-# Stock_Analysis with VBA
+# Election_Analysis with Python
+
+###Overview of Election Audit: Explain the purpose of this election audit analysis.
+
+For this project, I was in charge of an election audit for the Colorado Board of Elections. In order to audit the election, I had to use Python 3. With the help of python, I was able to write the script and perform the following tasks:
+
+Total number of votes
+A complete list of candidates who received votes
+Total number of votes each candidate received
+Percentage of votes each candidate won
+The winner of the election based on popular vote
+The voter turnout for each county
+The percentage of votes from each county out of the total count
+The county with the highest turnout
 
 
-### 1. Overview of Project: Explain the purpose of this analysis.
+###Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-While working on this project, I was able to incoporate my excel skills, along with my new VBA coding skills. The purpose of this project was to help Steve create a report that will help analyze new stocks for his parents to invest. While running the yearly stock reports of 2017 and 2018, we are also coding the time it takes to loop through all the data once. Then we will be comparing the refactored code to the original code to determine which analysis took longer.
+How many votes were cast in this congressional election?
+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+Which county had the largest number of votes?
+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
-### 2. Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-For the original code, we were using coding that included nested looping. The nested loop coding seem to have taken longer than the code with individualizing each loop. For example, Image A (original) and C shows the Green stock 2017 and 2018 report time and Image B and D shows the VBA Challenge 2017 report time. 
-
-![alt text](https://github.com/mquimi/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017_GS.png)
-![alt text](https://github.com/mquimi/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png)
-
-![alt text](https://github.com/mquimi/Stock_Analysis/blob/main/Resources/VBA_Challenge_2018_GS.png)
-![alt text](https://github.com/mquimi/Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
-
-
-### 3. Summary: In a summary statement, address the following questions.
-- What are the advantages or disadvantages of refactoring code?
-
-- How do these pros and cons apply to refactoring the original VBA script?
+###Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
