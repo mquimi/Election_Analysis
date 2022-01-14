@@ -2,7 +2,7 @@
 
 ### 1. Overview of Election Audit:
 
-For this project, I was in charge of an election audit for the Colorado Board of Elections. With the help of python, I was able to write the script and perform the following tasks for the analysis:
+For this project, I was in charge of an election audit for the Colorado Board of Elections using the dataset, [election_results.csv](https://github.com/mquimi/Election_Analysis/blob/main/Resources/"Resources/election_results.csv"). With the help of python, I was able to write the script and perform the following tasks for the analysis:
 
 * Total number of votes
 * A complete list of candidates who received votes
