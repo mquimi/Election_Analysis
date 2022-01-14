@@ -42,7 +42,7 @@ From the image above, you can conclude that the winner of the election is Diana 
 ### 3. Election-Audit Summary: 
 
 
-After creating the python script for the election, I realize that this script is not a one time script and can be modified to meet the criterias that others may want. At the moment, the current script allows users to see the the total amount of votes, who the winner was, what was the largest county and other useful information that can help determine other analysis. 
+After creating the python script for the election, I realize that this script is not a one time script and can be modified to meet the criterias that others may want. At the moment, the current script iterates through each row, while reading through the second and third column, allowwing users to see the printed results of the total amount of votes, who the winner was, what was the largest county and other useful information that can help determine other analysis. 
 
 Two modifications that can be done with this current script is to:
 
